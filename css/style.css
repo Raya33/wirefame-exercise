@@ -1,104 +1,69 @@
 body {
-    background-color: white;
-  }
+  text-align: center;
   
-  header {
-    background-color: white;
-    margin-bottom: 20px;
-    
-  }
-  nav {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: -1;
-    
-  }
-  ul {
-    list-style-type: none;
-    width: 50%;
-    float: right;
-    margin: auto;
-  }
-  
-  li {
-    display: inline;
-    padding: 0px;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  
-  #logo {
-    float: left;
-    margin: 20px 0px 20px 100px;
-    width: 200px;
-    height: 70px;
-    background-color:#DDD;
-    z-index: +1;
-  }
-  main {
-    width: 100%;
-  }
-  section {
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 100%;
-    text-align: center;
-  }
-  #hero-img {
-    display: inline-block;
-    background-color:#DDD;
-    height: 450px;
-    width: 960px;
-  }
-  .section2Boxes {
-    display: inline-block;
-    width: 300px;
-    height: 375px;
-    background-color:#DDD;
-  }
-  #section2-box2 {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  section:nth-of-type(3) {
-    display: flex;
-    justify-content: center;
-  }
-  .section3Boxes {
-    width: 480px;
-    height: 400px;
-  }
-  .section3Boxes:nth-of-type(1) {
-    background-color:#DDD ;
-  }
-  #text-feature {
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    width: 460px;
-  }
-  #text-feature h4 {
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 20px;
-  }
-  #button-container {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-  }
-  button {
-    width: 200px;
-    height: 40px;
-  }
-  textarea {
-    height: 350px;
-  }
-  footer {
-    background-color: darkgray;
-    margin-bottom: 20px;
-    height: 200px;
-  }
+}
+
+header {
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+header img {
+  float: left;
+  margin: 20px 180px 20px 0px;
+  width: 200px;
+  height: 70px;
+  background-color:#DDD;
+  z-index: +1;
+  background-color: #DDD;
+}
+
+ main img {
+  margin: 15px;
+  background-color: #DDD;
+} 
+
+/* NAV BAR */
+li{
+  margin: 35px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* FOOTER */
+footer {
+  background-color:#DDD;
+  height: 200px;
+  margin: 20px 200px 20px 200px;
+
+}
+
+
+li > div > p {
+  height: 350px;
+  overflow: scroll;
+  width: 400px;
+  text-align: left;
+}
+ 
+section > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 15px;
+  text-align: left;
+}
+
+button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 350ms;
+}
+
+button:hover {
+background-color: blue;
+color: white;
+}
